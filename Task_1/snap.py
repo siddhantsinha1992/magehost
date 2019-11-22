@@ -6,7 +6,7 @@ import sys
 import datetime
 
 droplet_id = int(sys.argv[1])
-api_token = 'ce24c564252a97da5c23a673864cccfac4b50c30ddba3649a26a82ac9c2ef7d4'
+api_token = 'your api_token'
 api_url_base = 'https://api.digitalocean.com/v2/'
 
 headers = {'Content-Type': 'application/json',
